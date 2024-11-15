@@ -1,0 +1,15 @@
+[package]
+name = "Decentralized-login-system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DecentralizedLoginSystem = '0x24141dce26f007450c04c75d19fb064fb375628652147992846bf1c06a8de73d'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
